@@ -1,38 +1,23 @@
 <template>
-  <div>
-    <v-toolbar>
-      <v-toolbar-title>Title</v-toolbar-title>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Example Component</div>
 
-      <v-spacer></v-spacer>
-
-      <v-toolbar-items>
-        <v-btn text>Link 1</v-btn>
-        <v-btn text>Link 2</v-btn>
-        <v-btn text>Link 3</v-btn>
-      </v-toolbar-items>
-
-      <template>
-        <v-btn icon>
-          <v-icon>mdi-export-variant</v-icon>
-        </v-btn>
-        <v-btn icon>
-          <v-icon>mdi-delete-circle</v-icon>
-        </v-btn>
-        <v-btn icon>
-          <v-icon>mdi-plus-circle</v-icon>
-        </v-btn>
-      </template>
-    </v-toolbar>
-  </div>
+                    <div class="card-body">
+                        I'm an example component.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </template>
 
 <script>
-export default {
-  mounted() {
-    console.log("Component mounted.");
-  },
-  data() {
-    return {};
-  }
-};
+    export default {
+        mounted() {
+            console.log('Component mounted.')
+        }
+    }
 </script>
